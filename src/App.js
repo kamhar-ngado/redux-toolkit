@@ -1,12 +1,10 @@
+import Counter from "./features/counter/Counter";
 
-
-
-const App = ()=> {
+function App() {
   return (
-    <div>
-      <h1>awesome</h1>
-
-    </div>
+    <main className="App">
+      <Counter />
+    </main>
   );
 }
 
